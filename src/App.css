@@ -5,10 +5,17 @@
 
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-
 
 li {
   list-style: none;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.fav {
+  background-color: lightpink;
 }
